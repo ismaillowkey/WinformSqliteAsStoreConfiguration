@@ -45,6 +45,7 @@ namespace WinformSqliteAsStoreConf
             this.TxtReadKey = new System.Windows.Forms.TextBox();
             this.TxtReadValue = new System.Windows.Forms.TextBox();
             this.TxtReadSection = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -203,11 +204,21 @@ namespace WinformSqliteAsStoreConf
             this.TxtReadSection.TabIndex = 3;
             this.TxtReadSection.Text = "mysql";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(115, 171);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(159, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "File configuration : dbsettings.db";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 193);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -217,6 +228,7 @@ namespace WinformSqliteAsStoreConf
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -238,6 +250,7 @@ namespace WinformSqliteAsStoreConf
         private System.Windows.Forms.TextBox TxtReadKey;
         private System.Windows.Forms.TextBox TxtReadValue;
         private System.Windows.Forms.TextBox TxtReadSection;
+        private System.Windows.Forms.Label label4;
     }
 }
 
